@@ -16,9 +16,6 @@ describe("the bill with settings factory function",function(){
         assert.equal(0.75, settingsBill.getSmsCost());
    
     
-    // let settingsBill2 = billWithSettings();
-    //     settingsBill2.setSmsCost(0.75);
-    //     assert.equal(0.75, settingsBill2.setSmsCost());
     }) 
     it("should be able to set the call and sms cost",function(){
         let settingsBill = billWithSettings();
@@ -30,15 +27,7 @@ describe("the bill with settings factory function",function(){
         assert.equal(2.75, settingsBill.getCallCost());
         assert.equal(0.75, settingsBill.getSmsCost());
    
-        // let settingsBill2 = billWithSettings();
-
-        // settingsBill2.setCallCost(2.75);
-        // settingsBill2.getSmsCost(0.75);
-        
-        
-        // assert.equal(2.75, settingsBill2.setCallCost());
-        // assert.equal(0.75, settingsBill2.getSmsCost());
-      
+       
 })
 it("should be able to set the warning level",function(){
     let settingsBill = billWithSettings();
